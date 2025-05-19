@@ -16,7 +16,7 @@ document.body.appendChild(title);
 
 const img = document.createElement('img');
 img.src = "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1350&q=80";
-img.alt = "Красива природа";
+img.alt = "Гарна природа";
 img.style.maxWidth = "90%";
 img.style.height = "auto";
 img.style.borderRadius = "12px";
@@ -29,7 +29,7 @@ paragraph.style.color = "#333";
 document.body.appendChild(paragraph);
 
 const button = document.createElement('button');
-button.textContent = "Нажми на меня";
+button.textContent = "Натисни";
 button.style.padding = "10px 20px";
 button.style.fontSize = "16px";
 button.style.cursor = "pointer";
@@ -40,7 +40,7 @@ button.style.borderRadius = "5px";
 button.style.marginTop = "20px";
 document.body.appendChild(button);
 
-// Добавляем обработчик события для кнопки
+
 button.addEventListener('click', function () {
-    alert("Спасибо за нажатие!");
+    alert("Дякую, що натиснули!");
 });
